@@ -1,0 +1,17 @@
+# Entorno virtual
+env/
+venv/
+.env
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Datos (Mantenemos la carpeta pero no los resultados)
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Sistema
+.DS_Store
