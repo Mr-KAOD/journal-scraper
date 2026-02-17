@@ -16,16 +16,19 @@ Follow these steps to set up the environment and install all necessary component
 
 ### 1. Clone the Repository
 Open your terminal and run the following command:
+
     git clone git@github.com:mr-kaod/journal-scraper.git
     cd journal-scraper
 
 ### 2. Create and Activate a Virtual Environment
 This ensures that the project dependencies are isolated from your global Python installation.
 #### On Linux / macOS:
+
     python3 -m venv env
     source env/bin/activate
 
 #### On Windows (PowerShell):
+
     python -m venv env
     .\env\Scripts\Activate.ps1
 
