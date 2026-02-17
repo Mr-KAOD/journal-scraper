@@ -31,12 +31,13 @@ This ensures that the project dependencies are isolated from your global Python 
 
 ### 3. Install Python Dependencies
 Once the environment is activated (indicated by (env) in your terminal prompt), install the required libraries:
-Bash
+
     pip install -r requirements.txt
 
 ### 4. Install Playwright Browsers
 
 Playwright requires specific browser binaries to operate. Install the Chromium engine by running:
+
     playwright install chromium
 
 ## 📈 Usage Guide
@@ -47,11 +48,11 @@ Start the script:
 
     python src/main.py
 
-Search: When prompted in the terminal, enter a related keyword.
+**Search:** When prompted in the terminal, enter a related keyword.
 
-Human Verification: The browser will open in "headed" mode. If a Cloudflare or Captcha challenge appears, solve it manually in the browser window.
+**Human Verification:** The browser will open in "headed" mode. If a Cloudflare or Captcha challenge appears, solve it manually in the browser window.
 
-Data Extraction: Once verified, the script will automatically scrape the data and save a CSV file in the data/raw/ directory.
+**Data Extraction:** Once verified, the script will automatically scrape the data and save a CSV file in the data/raw/ directory.
 
 ## 📁 Project Structure
 
